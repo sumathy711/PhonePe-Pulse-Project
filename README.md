@@ -3,13 +3,12 @@ markdown
 # PhonePe Pulse: Transaction & User Insights (2018-2024) 
 
 ## 📌 Project Overview
-This project is an end-to-end Data Engineering and Analysis solution. It extracts data from the PhonePe Pulse GitHub repository, processes it using **Python**, stores it in a **MySQL** database, and visualizes the results through an interactive **Streamlit** dashboard.
+This project is an end-to-end Data Engineering and Analysis solution. It extracts data from the PhonePe Pulse GitHub repository, processes it using **Python**, stores it in a **PostgreSQL** database, and visualizes the results through an interactive **Streamlit** dashboard.
 
 ## 🛠️ Skills & Technologies
 - **Data Extraction:** Scripted JSON parsing from nested GitHub directories.
 - **SQL Proficiency:** Designed a relational schema to store Aggregated, Map, and Top data.
 - **Data Visualization:** Built interactive charts using **Plotly** and **Streamlit**.
-- **Domain:** Fintech & Digital Payments.
 
 ## 📊 Strategic Business Insights
 Based on the data analysis, here are the key findings:
