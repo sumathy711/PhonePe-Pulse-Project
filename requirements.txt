@@ -1,0 +1,6 @@
+pandas
+postgresql-connector-python
+plotly
+streamlit
+requests
+sqlalchemy
