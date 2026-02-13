@@ -26,3 +26,11 @@ Based on the data analysis, here are the key findings:
 - 'extraction.ipynb': Data extraction and SQL migration logic.
 - 'app.py': Streamlit dashboard code.
 - 'requirements.txt`: Python dependencies.
+- 
+ ## Data Pipeline & Extraction Logic
+To ensure data integrity and performance, the following logic was implemented in 'extraction.ipynb'
+- **Database Migration:** Data is pushed to **PostgreSQL** using 'df.to_sql()`.
+- **Optimization Note:** The SQL insertion lines are currently **commented out** in the notebook. This is a deliberate safety measure to:
+  1. Prevent accidental overwriting of existing tables during repeated analysis.
+  2. Avoid redundant data processing once the initial migration is successful.
+  3. Ensure the **Streamlit Dashboard** remains the primary interface for data retrieval.
