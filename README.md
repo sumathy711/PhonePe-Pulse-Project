@@ -26,7 +26,7 @@ Based on the data analysis, here are the key findings:
 - 'extraction.ipynb': Data extraction and SQL migration logic.
 - 'app.py': Streamlit dashboard code.
 - 'requirements.txt`: Python dependencies.
-- 
+ 
  ## Data Pipeline & Extraction Logic
 To ensure data integrity and performance, the following logic was implemented in 'extraction.ipynb'
 - **Database Migration:** Data is pushed to **PostgreSQL** using 'df.to_sql()`.
